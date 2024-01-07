@@ -34,16 +34,20 @@ const activeSection = ref(0)
 <template>
   <div v-if="jsonData">
     <div class="wrapper">
-      <div v-if="activeSection === 0">
-        Chords
+      <div v-show="activeSection === 0">
+        <p v-for="(line, index) in jsonData.structure" :key="index">
+          {{ line }}
+        </p>
       </div>
-      <div v-if="activeSection === 1">
-        Lyrics
+      <div v-show="activeSection === 1">
+        <p v-for="(line, index) in jsonData.lyrics" :key="index">
+          {{ line }}
+        </p>
       </div>
-      <div v-if="activeSection === 2">
+      <div v-show="activeSection === 2">
         <Youtube :youtubekey="jsonData.youtubeKey" />
       </div>
-      <div v-if="activeSection === 3">
+      <div v-show="activeSection === 3">
         PDF
       </div>
     </div>
@@ -71,9 +75,11 @@ body, html {
   padding: 0;
 }
 .wrapper {
-  padding: 40px 0 80px;
+  padding: 55px 15px 95px;
 }
 .metaBar {
+  background: white;
+  box-shadow: 0 0 10px #eee;
   position: fixed;
   display: flex;
   justify-content: space-between;
