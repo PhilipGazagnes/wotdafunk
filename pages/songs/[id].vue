@@ -22,7 +22,7 @@ const importData = () => {
 const { jsonData } = importData();
 
 const navItems = [
-  'structure',
+  'chords',
   'lyrics',
   'video',
   'pdf',
@@ -35,7 +35,7 @@ const activeSection = ref(0)
   <div v-if="jsonData">
     <div class="wrapper">
       <div v-if="activeSection === 0">
-        Structure
+        Chords
       </div>
       <div v-if="activeSection === 1">
         Lyrics
@@ -95,6 +95,7 @@ body, html {
 }
 .navBarItem {
   width: 25%;
+  font-size: 14px;
   text-transform: uppercase;
   border: none;
   background: white;
