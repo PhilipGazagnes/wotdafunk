@@ -3,5 +3,20 @@
   "artist": "George Benson",
   "youtubeKey": "G0e7OyxFsxQ?si=jXVvPApw30nFAFpi",
   "lyrics": "lyrics...",
-  "structure": "structure..."
+  "structure": [
+    "Grille intro, couplets, refrains, solos : Fm7 A#m7 Cm7 C#M7",
+    "Intro",
+    "Couplet",
+    "Pré-Refrain A#m7",
+    "Refrain",
+    "Couplet",
+    "Pré-Refrain A#m7",
+    "Refrain",
+    "Pont",
+    "Refrain",
+    "Solos...",
+    "Pré-Refrain A#m7",
+    "Refrain",
+    "..."
+  ]
 }

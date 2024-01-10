@@ -3,5 +3,9 @@
   "artist": "Aretha Franklin",
   "youtubeKey": "aXgSHL7efKg?si=YqbI4bEEATeGx2k2",
   "lyrics": "lyrics...",
-  "structure": "structure..."
+  "structure": [
+    "Tona: C",
+    "Couplet : G F.... C F...",
+    "Pont : F#m B F# G7"
+  ]
 }
