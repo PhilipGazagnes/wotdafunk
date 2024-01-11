@@ -51,15 +51,15 @@ const activeSection = ref(0)
       <span class="block text-2xl font-bold">{{ jsonData.name }}</span>
       <span class="block">{{ jsonData.artist }}</span>
     </h1>
-    <h2 class="mt-7 mb-3 text-lg rounded-md bg-white/10 p-2 text-right">Structure, chords</h2>
+    <h2 class="mt-10 mb-5 text-lg rounded-md bg-white/10 p-2 text-right">Structure, chords</h2>
     <div>
-      <p v-for="(line, index) in jsonData.structure" :key="index">
+      <p v-for="(line, index) in jsonData.structure" :key="index" class="mb-3">
         {{ line }}
       </p>
     </div>
-    <h2 class="mt-7 mb-3 text-lg rounded-md bg-white/10 p-2 text-right">Lyrics</h2>
+    <h2 class="mt-10 mb-5 text-lg rounded-md bg-white/10 p-2 text-right">Lyrics</h2>
     <div>
-      <p v-for="(line, index) in jsonData.lyrics" :key="index">
+      <p v-for="(line, index) in jsonData.lyrics" :key="index" class="mb-3">
         {{ line }}
       </p>
     </div>
