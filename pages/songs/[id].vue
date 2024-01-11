@@ -32,82 +32,48 @@ const activeSection = ref(0)
 </script>
 
 <template>
-  <div v-if="jsonData">
-    <div class="wrapper">
-      <div v-show="activeSection === 0">
+  <div v-if="jsonData" class="flex flex-col h-full">
+    <div class="flex-1 h-full p-6 text-white">
+      <a href="/" class="block w-8 h-8 rounded-full bg-white/20">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          class="w-full h-full -translate-x-[2px]"
+          fill="none"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </a>
+      <h1 class="mt-4">
+        <span class="block text-2xl font-bold">{{ jsonData.name }}</span>
+        <span class="block">{{ jsonData.artist }}</span>
+      </h1>
+      <h2 class="mt-7 mb-3 text-lg rounded-md bg-white/10 p-2 text-right">Structure, chords</h2>
+      <div>
         <p v-for="(line, index) in jsonData.structure" :key="index">
           {{ line }}
         </p>
       </div>
-      <div v-show="activeSection === 1">
+      <h2 class="mt-7 mb-3 text-lg rounded-md bg-white/10 p-2 text-right">Lyrics</h2>
+      <div>
         <p v-for="(line, index) in jsonData.lyrics" :key="index">
           {{ line }}
         </p>
       </div>
-      <div v-show="activeSection === 2">
+      <h2 class="mt-7 mb-3 text-lg rounded-md bg-white/10 p-2 text-right">Video</h2>
+      <div>
         <Youtube :youtubekey="jsonData.youtubeKey" />
       </div>
       <div v-show="activeSection === 3">
         PDF
       </div>
     </div>
-    <div class="metaBar">
-      <div class="current">{{ jsonData.name }} - {{ jsonData.artist }}</div>
-      <a href="/">Liste</a>
-    </div>
-    <div class="navBar">
-      <button
-        v-for="(label, index) in navItems" :key="index"
-        :data-active="activeSection === index"
-        class="navBarItem"
-        @click="activeSection = index"
-      >{{ label }}</button>
-    </div>
   </div>
   <div v-else>
     Loading...
   </div>
 </template>
-
-<style>
-body, html {
-  margin: 0;
-  padding: 0;
-}
-.wrapper {
-  padding: 55px 15px 95px;
-}
-.metaBar {
-  background: white;
-  box-shadow: 0 0 10px #eee;
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  top: 0;
-  width: 100%;
-  border-bottom: 1px solid #ddd;
-  height: 40px;
-}
-.navBar {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  height: 80px;
-  background: white;
-  border-top: 1px solid #ddd;
-  box-shadow: 0 0 10px #eee;
-  display: flex;
-}
-.navBarItem {
-  width: 25%;
-  font-size: 14px;
-  text-transform: uppercase;
-  border: none;
-  background: white;
-  &[data-active='true'] {
-    background: #eee;
-    font-weight: bold;
-  }
-}
-</style>
