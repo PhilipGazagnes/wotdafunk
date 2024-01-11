@@ -5,9 +5,9 @@ const props = defineProps(['youtubekey']);
 </script>
 
 <template>
-  <div class="youtube">
+  <div class="relative pb-[56.25%]">
     <iframe
-      class="youtubeIframe"
+      class="absolute w-full h-full"
       width="560"
       height="315"
       :src="`https://www.youtube.com/embed/${youtubekey}`"
@@ -15,17 +15,5 @@ const props = defineProps(['youtubekey']);
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen />
-    </div>
+  </div>
 </template>
-
-<style>
-.youtube {
-  position: relative;
-  padding: 0 0 56.25% 0;
-}
-.youtubeIframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-</style>
