@@ -57,8 +57,8 @@ const activeSection = ref(0)
         {{ line }}
       </p>
     </div>
-    <h2 class="mt-10 mb-5 text-lg rounded-md bg-white/10 p-2 text-right">Lyrics</h2>
-    <div>
+    <h2 v-if="jsonData.lyrics" class="mt-10 mb-5 text-lg rounded-md bg-white/10 p-2 text-right">Lyrics</h2>
+    <div v-if="jsonData.lyrics">
       <p v-for="(line, index) in jsonData.lyrics" :key="index" class="mb-3">
         {{ line }}
       </p>
