@@ -1,0 +1,28 @@
+{
+  "name": "Never get enough",
+  "artist": "Bobby Byrd",
+  "youtubeKey": "xxx",
+  "lyrics": [
+    ""
+  ],
+  "structure": [
+    {
+      "name": "break",
+      "type": "text",
+      "data": [
+        "sur 4 temps",
+        "D E D E F D E D E D E A G F"
+      ]
+    },
+    {
+      "name": "grille",
+      "type": "grid",
+      "data": [
+        ["D9","G9", "A9", "D9"],
+        ["D9","G9", "A9", "D9"],
+        ["D9","A9", "D9", "G9"],
+        ["C7","F7", "C7", "A7"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Pass the peas",
+  "artist": "Maceo Parker",
+  "youtubeKey": "_F9PtV_7Up0?si=9XubI00k2VP1v4wO",
+  "lyrics": [
+    "Pass the peas like we used to say",
+    "Pass the peas like we used to say",
+    "Pass the peas like we used to say",
+    "Pass the peas like we used to say",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas",
+    "Pass the peas"
+  ],
+  "structure": [
+    {
+      "name": "A",
+      "type": "grid",
+      "x": 4,
+      "y": 3,
+      "data": [
+        ["Dm7", "%", "%", "%"],
+        ["G7", "%", "Dm7", "%"],
+        ["A7", "G7", "Dm7", "%"]
+      ] 
+    },
+    {
+      "name": "Break",
+      "type": "text",
+      "data": [
+        "sur 6 temps :",
+        "4 croches caiss claise (= 2 temps)",
+        "A7 laisser sonner sur 4 temps"
+      ] 
+    },
+    {
+      "name": "B",
+      "type": "text",
+      "data": [
+        "A7 - 8 mesures",
+        "Dm7 - 4 mesures"
+      ]
+    },
+    {
+      "name": "C",
+      "type": "text",
+      "data": [
+        "Dm7"
+      ]
+    }
+  ]
+}

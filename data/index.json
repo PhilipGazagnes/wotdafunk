@@ -98,5 +98,35 @@
     "id": "020",
     "name": "Le Freak",
     "artist": "Chic"
+  },
+  {
+    "id": "021",
+    "name": "Pass the peas",
+    "artist": "Maceo Parker"
+  },
+  {
+    "id": "022",
+    "name": "I wish",
+    "artist": "Stevie wonder"
+  },
+  {
+    "id": "023",
+    "name": "Kiss",
+    "artist": "Prince"
+  },
+  {
+    "id": "024",
+    "name": "Chameleon",
+    "artist": "Herbie Hancock"
+  },
+  {
+    "id": "025",
+    "name": "Brothers on the slide",
+    "artist": "Cymande"
+  },
+  {
+    "id": "026",
+    "name": "Never get enough",
+    "artist": "Bobby Byrd"
   }
 ]
