@@ -7,7 +7,7 @@ type Song = {
   artist: string,
 }
 
-const songs: Song[] = indexJson
+const songs: Song[] = indexJson.filter(song => !song.bypass)
 </script>
 
 <template>

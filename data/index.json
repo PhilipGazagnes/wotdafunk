@@ -57,7 +57,8 @@
   {
     "id": "012",
     "name": "Am I your woman",
-    "artist": "Speedometer feat Ria Currie"
+    "artist": "Speedometer feat Ria Currie",
+    "bypass": true
   },
   {
     "id": "013",
@@ -77,7 +78,8 @@
   {
     "id": "016",
     "name": "We got the funk",
-    "artist": "George Clinton"
+    "artist": "George Clinton",
+    "bypass": true
   },
   {
     "id": "017",
