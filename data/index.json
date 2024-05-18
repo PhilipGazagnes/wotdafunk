@@ -17,7 +17,8 @@
   {
     "id": "004",
     "name": "The Payback",
-    "artist": "James Brown"
+    "artist": "James Brown",
+    "bypass": true
   },
   {
     "id": "005",
@@ -52,7 +53,8 @@
   {
     "id": "011",
     "name": "People get up and drive your funky soul",
-    "artist": "James Brown"
+    "artist": "James Brown",
+    "bypass": true
   },
   {
     "id": "012",
@@ -129,6 +131,7 @@
   {
     "id": "026",
     "name": "Never get enough",
-    "artist": "Bobby Byrd"
+    "artist": "Bobby Byrd",
+    "bypass": true
   }
 ]
