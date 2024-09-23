@@ -1,6 +1,7 @@
 {
   "name": "Good Times",
   "artist": "Chic",
+  "tona": "Em",
   "youtubeKey": "Q5C9oeKxJzo?si=9It1PvjaUjh8vGn2",
   "lyrics": [
     "Good times, these are the good times",
@@ -52,7 +53,5 @@
     "Good times, these are the good times",
     "Our new state of mind, these are the good times"
   ],
-  "structure": [
-    "Tona : E"
-  ]
+  "structure": []
 }

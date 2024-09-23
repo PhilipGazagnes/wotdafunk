@@ -2,136 +2,127 @@
   {
     "id": "001",
     "name": "Sex Machine",
-    "artist": "James Brown"
+    "artist": "James Brown",
+    "tona": "Eb7"
   },
   {
     "id": "002",
     "name": "Soul Power",
-    "artist": "Maceo Parker"
+    "artist": "Maceo Parker",
+    "tona": "D7"
   },
   {
     "id": "003",
     "name": "Play that funky music",
-    "artist": "Wild cherry"
-  },
-  {
-    "id": "004",
-    "name": "The Payback",
-    "artist": "James Brown",
-    "bypass": true
+    "artist": "Wild cherry",
+    "tona": "E7"
   },
   {
     "id": "005",
     "name": "Just kissed my babe",
-    "artist": "The meters"
+    "artist": "The meters",
+    "tona": "Gm"
   },
   {
     "id": "006",
     "name": "Chicken",
-    "artist": "Maceo Parker"
+    "artist": "Maceo Parker",
+    "tona": "Bb7"
   },
   {
     "id": "007",
     "name": "Shake everything you've got",
-    "artist": "Maceo Parker"
+    "artist": "Maceo Parker",
+    "tona": "D7"
   },
   {
     "id": "008",
     "name": "House party",
-    "artist": "Maceo Parker"
+    "artist": "Maceo Parker",
+    "tona": "G7"
   },
   {
     "id": "009",
     "name": "Give me the night",
-    "artist": "George Benson"
+    "artist": "George Benson",
+    "tona": "Fm"
   },
   {
     "id": "010",
     "name": "Cissy strut",
-    "artist": "The meters"
-  },
-  {
-    "id": "011",
-    "name": "People get up and drive your funky soul",
-    "artist": "James Brown",
-    "bypass": true
-  },
-  {
-    "id": "012",
-    "name": "Am I your woman",
-    "artist": "Speedometer feat Ria Currie",
-    "bypass": true
+    "artist": "The meters",
+    "tona": "C7"
   },
   {
     "id": "013",
     "name": "Good Times",
-    "artist": "Chic"
+    "artist": "Chic",
+    "tona": "Em"
   },
   {
     "id": "014",
     "name": "Respect",
-    "artist": "Aretha Franklin"
-  },
-  {
-    "id": "015",
-    "name": "Use me",
-    "artist": "Bill Withers"
-  },
-  {
-    "id": "016",
-    "name": "We got the funk",
-    "artist": "George Clinton",
-    "bypass": true
+    "artist": "Aretha Franklin",
+    "tona": "C7"
   },
   {
     "id": "017",
     "name": "Superstition",
-    "artist": "Stevie wonder"
+    "artist": "Stevie wonder",
+    "tona": "Ebm"
   },
   {
     "id": "018",
     "name": "Sunny",
-    "artist": "Bobby Hebb"
-  },
-  {
-    "id": "019",
-    "name": "Papa was a rolling stone",
-    "artist": "The Temptations"
+    "artist": "Bobby Hebb",
+    "tona": "Em"
   },
   {
     "id": "020",
     "name": "Le Freak",
-    "artist": "Chic"
+    "artist": "Chic",
+    "tona": "Am"
   },
   {
     "id": "021",
     "name": "Pass the peas",
-    "artist": "Maceo Parker"
+    "artist": "Maceo Parker",
+    "tona": "D7"
   },
   {
     "id": "022",
-    "name": "I wish",
-    "artist": "Stevie wonder"
+    "name": "Brothers on the slide",
+    "artist": "Cymande",
+    "tona": "Am"
   },
   {
     "id": "023",
-    "name": "Kiss",
-    "artist": "Prince"
+    "name": "Chameleon",
+    "artist": "Herbie Hancock",
+    "tona": "Bbm"
   },
   {
     "id": "024",
-    "name": "Chameleon",
-    "artist": "Herbie Hancock"
+    "name": "September",
+    "artist": "Earth Wind & Fire",
+    "tona": "F#m"
   },
   {
     "id": "025",
-    "name": "Brothers on the slide",
-    "artist": "Cymande"
+    "name": "Kiss",
+    "artist": "Prince",
+    "tona": "A7"
   },
   {
     "id": "026",
-    "name": "Never get enough",
-    "artist": "Bobby Byrd",
-    "bypass": true
+    "name": "I wish",
+    "artist": "Stevie Wonder",
+    "tona": "Ebm"
+  },
+  {
+    "id": "027",
+    "name": "We are family",
+    "artist": "Chic",
+    "tona": "A7"
   }
 ]

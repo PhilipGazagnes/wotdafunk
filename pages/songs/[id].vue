@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
 import Youtube from '../components/Youtube.vue'
-import StructureItem from '../components/StructureItem.vue'
 
 const route = useRoute()
 
@@ -52,35 +51,19 @@ const activeSection = ref(0)
       <span class="block text-2xl font-bold">{{ jsonData.name }}</span>
       <span class="block">{{ jsonData.artist }}</span>
     </h1>
-    <h2 class="mt-10 mb-5 text-lg border-b border-white p-2 text-right">Structure, chords</h2>
+    <h2 class="mt-10 mb-5 text-lg rounded-md bg-white/10 p-2 text-right">Structure, chords</h2>
     <div>
-    
-      <div v-for="(line, index) in jsonData.structure" :key="index" class="mb-3">
-        <template v-if="(typeof line === 'string')">{{ line }}</template>
-        <StructureItem v-else :item-data="line"/>
-      </div>
-      
-    </div>
-    <h2 v-if="jsonData.lyrics" class="mt-10 mb-5 text-lg border-b border-white p-2 text-right">Lyrics</h2>
-    <div v-if="jsonData.lyrics">
-      <p v-for="(line, index) in jsonData.lyrics" :key="index" class="mb-3">
-        <template v-if="line.length">
-          <template v-if="line.indexOf ('#b#') === 0">
-            <span class="font-bold">{{ line.substring(3) }}</span>
-          </template>
-          <template v-else-if="line.indexOf ('#i#') === 0">
-            <span class="italic">{{ line.substring(3) }}</span>
-          </template>
-          <template v-else>
-            {{ line }}
-          </template>
-        </template>
-        <template v-else>
-          <br />
-        </template>
+      <p v-for="(line, index) in jsonData.structure" :key="index" class="mb-3">
+        {{ line }}
       </p>
     </div>
-    <h2 class="mt-10 mb-5 text-lg border-b border-white p-2 text-right">Video</h2>
+    <h2 v-if="jsonData.lyrics" class="mt-10 mb-5 text-lg rounded-md bg-white/10 p-2 text-right">Lyrics</h2>
+    <div v-if="jsonData.lyrics">
+      <p v-for="(line, index) in jsonData.lyrics" :key="index" class="mb-3">
+        {{ line }}
+      </p>
+    </div>
+    <h2 class="mt-7 mb-3 text-lg rounded-md bg-white/10 p-2 text-right">Video</h2>
     <div class="pb-20">
       <Youtube :youtubekey="jsonData.youtubeKey" />
     </div>

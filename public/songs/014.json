@@ -1,6 +1,7 @@
 {
   "name": "Respect",
   "artist": "Aretha Franklin",
+  "tona": "C7",
   "youtubeKey": "A134hShx_gw?si=UyeLwVtdM5Qi4FfX",
   "lyrics": [
     "Hey, what you want",
@@ -55,7 +56,6 @@
     "A little respect (just a little bit)"
   ],
   "structure": [
-    "Tona: C7",
     "Couplet : G7 F7.... C7 F7...",
     "Pont : F#m B F# G7"
   ]

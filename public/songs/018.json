@@ -1,6 +1,7 @@
 {
   "name": "Sunny",
   "artist": "Bobby Hebb",
+  "tona": "Em",
   "youtubeKey": "ubvYQxTXO3U?si=B5YqYxstFM8BkqxK",
   "lyrics": [
     "Sunny, yesterday my life was filled with rain",
@@ -38,12 +39,5 @@
     "I love you",
     "I love you"
   ],
-  "structure": [
-    "Grille :",
-    "Cm | D# | G# | G   x2",
-    "Cm | D# | G# | C#",
-    "Dm | G | Cm A# | G# G",
-    "...",
-    "monter plusieurs fois de 1/2 ton..."
-  ]
+  "structure": []
 }

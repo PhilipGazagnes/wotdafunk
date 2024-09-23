@@ -1,6 +1,7 @@
 {
   "name": "Le Freak",
   "artist": "Chic",
+  "tona": "Am",
   "youtubeKey": "aXgSHL7efKg?si=GHiEg_fJyN9T4E8U",
   "lyrics": [
     "One, two",
@@ -80,7 +81,5 @@
     "Le freak, c'est chic",
     "Freak out! ETC ETC ETC"
   ],
-  "structure": [
-    "Tona : A"
-  ]
+  "structure": []
 }

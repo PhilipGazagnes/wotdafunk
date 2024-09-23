@@ -1,6 +1,7 @@
 {
   "name": "Sex Machine",
   "artist": "James Brown",
+  "tona": "Eb7",
   "youtubeKey": "ZNaXb3uuekk?si=cZ7HtmHYtbeybRWW",
   "lyrics": [
     "Fellas, I'm ready to get up and do my thing (yeah go ahead!)",
@@ -111,7 +112,7 @@
     "Hit it!"
   ],
   "structure": [
-    "Thème principal en D#7",
+    "Thème principal en Eb7",
     "Pont en G#7",
     "Pêches en G#7"
   ]

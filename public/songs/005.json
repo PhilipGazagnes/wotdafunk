@@ -1,6 +1,7 @@
 {
   "name": "Just kissed my babe",
   "artist": "The meters",
+  "tona": "Gm",
   "youtubeKey": "Ma8ABYwo1Ew?si=mgKpQcIk3SX_XjvD",
   "lyrics": [
     "I feel like a king",
@@ -44,7 +45,6 @@
     "Keep a-walking, keep a-moving"
   ],
   "structure": [
-    "tonalité G",
     "alternances passages en G / passages en A"
   ]
 }

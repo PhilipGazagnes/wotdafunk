@@ -1,6 +1,7 @@
 {
   "name": "Superstition",
   "artist": "Stevie wonder",
+  "tona": "Ebm",
   "youtubeKey": "0CFuCYNx-1g?si=3kcOwQEA22OppwXS",
   "lyrics": [
     "Very superstitious",
@@ -42,7 +43,7 @@
     "No, no, no"
   ],
   "structure": [
-    "en E",
-    "break B C B Bb A B"
+    "couplets Eb",
+    "break Bb B Bb A G# Bb"
   ]
 }

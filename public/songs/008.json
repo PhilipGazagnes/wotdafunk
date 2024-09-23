@@ -1,6 +1,7 @@
 {
   "name": "House party",
   "artist": "Maceo Parker",
+  "tona": "G7",
   "youtubeKey": "4lXZKjcl7io?si=PaxWu9rGd3aRoHhB",
   "lyrics": [
     "I can't go to the movies, I ain't got the fare",
@@ -33,7 +34,5 @@
     "Party, party it don't stop",
     "Party till your body gets hot"
   ],
-  "structure": [
-    "Tona : G"
-  ]
+  "structure": []
 }
