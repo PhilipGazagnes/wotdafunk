@@ -47,7 +47,7 @@ async function handleClick(id: string) {
         class="odd:bg-white/10"
       >
         <div class="block relative lg:flex lg:justify-between lg:items-center p-4 cursor-pointer" @click="handleClick(song.id)">
-          <div class="max-w-[50%] text-xl font-bold lg:w-1/3 lg:flex-initial leading-tight mb-1 lg:mb-0">{{ song.name }}</div>
+          <div class="max-w-[50%] text-xl font-bold lg:w-1/3 lg:flex-initial leading-tight mb-1 lg:mb-0">{{ song.name }} ({{ song.id }})</div>
           <div class="lg:w-1/3 lg:flex-initial mb-2 lg:mb-0">{{ song.artist }}</div>
           <div class="absolute top-1/2 -translate-y-1/2 lg:top-auto lg:translate-y-0 right-4 lg:static lg:w-1/3 lg:flex-initial"><span class="block text-right lg:text-left lg:inline text-sm opacity-50">Tonalité :</span> <span class="block text-right lg:text-left lg:inline text-3xl lg:text-lg font-bold">{{ song.tona }}</span></div>
           <div class="underline text-accent">Détails</div>
@@ -61,7 +61,10 @@ async function handleClick(id: string) {
         <div class="mt-4 mb-8">Tona : <span class="text-4xl font-bold">{{ jsonContent.tona }}</span></div>
         <div v-if="!!jsonContent.structure && jsonContent.structure.length" class="mt-4">
           <div class="text-xl text-accent mb-2 font-bold">Infos</div>
-          <p v-for="(line, index) in jsonContent.structure" :key="index">{{ line }}</p>
+          <p v-for="(line, index) in jsonContent.structure" :key="index">
+            <img v-if="line === 'getImageStructure'" :src="`/structures/${jsonContent.id}.jpg`" />
+            <span v-else>{{ line }}</span>
+          </p>
         </div>
         <div v-if="!!jsonContent.lyrics && jsonContent.lyrics.length" class="mt-4">
           <div class="text-xl text-accent mb-2 font-bold">Lyrics</div>

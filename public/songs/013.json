@@ -1,4 +1,5 @@
 {
+  "id": "013",
   "name": "Good Times",
   "artist": "Chic",
   "tona": "Em",
@@ -53,5 +54,7 @@
     "Good times, these are the good times",
     "Our new state of mind, these are the good times"
   ],
-  "structure": []
+  "structure": [
+    "getImageStructure"
+  ]
 }

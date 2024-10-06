@@ -1,12 +1,10 @@
 {
+  "id": "006",
   "name": "Chicken",
   "artist": "Maceo Parker",
   "tona": "Bb7",
   "youtubeKey": "7vn0w-zHwFw?si=iKzXotlj34I9hXNL",
   "structure": [
-    "Bb7 | % | % | %",
-    "Eb7 | % | D7 | G7",
-    "C7 | % | % | % (descente)",
-    "Eb7 | % | % | %"
+    "getImageStructure"
   ]
 }
